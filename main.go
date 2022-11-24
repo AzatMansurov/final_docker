@@ -5,7 +5,6 @@ import (
 )
 
 func main() {
-
 	upgradeBot := bot.CreateBot()
 
 	upgradeBot.Bot.Handle("/start", upgradeBot.StartHandler)
